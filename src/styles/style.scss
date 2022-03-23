@@ -1,0 +1,23 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.loadMore {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  button {
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    border-radius: 1rem;
+    font-size: 1.75rem;
+    padding: 0.25rem;
+    margin-bottom: 1rem;
+  }
+}
+@import "./nav";
+@import "./footer";
+@import "./search";
+@import "./picture";
